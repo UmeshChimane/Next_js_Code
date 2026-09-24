@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+
+.dashboard {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.dashboard h1 {
+  margin-bottom: 5px;
+  font-size: 36px;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.order p {
+  margin: 5px 0 0;
+  color: #666;
+}
+
+.analytics {
+  display: flex;
+  gap: 20px;
+}
+
+.analytics div {
+  flex: 1;
+  padding: 20px;
+  background: #f4f6f8;
+  border-radius: 8px;
+}
+
+.analytics span {
+  display: block;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.analytics strong {
+  font-size: 24px;
+}
+
+.skeleton {
+  animation: pulse 1.5s infinite;
+}
+
+.skeleton-line {
+  height: 18px;
+  background: #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.skeleton-line.short {
+  width: 50%;
+}
+
+.skeleton-line.medium {
+  width: 70%;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.5;
+  }
+}

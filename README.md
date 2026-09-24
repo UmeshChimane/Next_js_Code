@@ -1,1 +1,0 @@
-# Next_js_Code.
