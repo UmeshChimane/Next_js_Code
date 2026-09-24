@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "nextjs-basics",
+    "title": "Next.js Basics",
+    "description": "Learn the basics of Next.js and the App Router.",
+    "content": "Next.js is a React framework for building modern web applications. The App Router provides file-system based routing, layouts, Server Components and more.",
+    "author": "Umesh",
+    "date": "2026-09-20"
+  },
+  {
+    "slug": "react-server-components",
+    "title": "React Server Components",
+    "description": "Understand React Server Components in Next.js.",
+    "content": "Server Components allow components to render on the server. They can fetch data on the server and reduce the JavaScript sent to the browser.",
+    "author": "Umesh",
+    "date": "2026-09-21"
+  },
+  {
+    "slug": "dynamic-routes",
+    "title": "Dynamic Routes in Next.js",
+    "description": "Learn how dynamic routes work in the App Router.",
+    "content": "Dynamic routes use square brackets such as [slug]. They allow one page to handle multiple URLs.",
+    "author": "Umesh",
+    "date": "2026-09-22"
+  }
+]
