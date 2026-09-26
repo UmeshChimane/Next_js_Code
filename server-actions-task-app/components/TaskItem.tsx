@@ -27,7 +27,7 @@ export default function TaskItem({ task }: TaskItemProps) {
       }
 
       return currentTask;
-    }
+    }   
   );
 
   return (
